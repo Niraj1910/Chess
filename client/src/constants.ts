@@ -1,0 +1,48 @@
+const initialBoard = [
+  [
+    "rook-b",
+    "knight-b",
+    "bishop-b",
+    "queen-b",
+    "king-b",
+    "bishop-b",
+    "knight-b",
+    "rook-b",
+  ],
+  [
+    "pawn-b",
+    "pawn-b",
+    "pawn-b",
+    "pawn-b",
+    "pawn-b",
+    "pawn-b",
+    "pawn-b",
+    "pawn-b",
+  ],
+  ["", "", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", "", ""],
+  ["", "", "", "", "", "pawn-b", "", "pawn-b"],
+  [
+    "pawn-w",
+    "pawn-w",
+    "pawn-w",
+    "pawn-w",
+    "pawn-w",
+    "pawn-w",
+    "pawn-w",
+    "pawn-w",
+  ],
+  [
+    "rook-w",
+    "knight-w",
+    "bishop-w",
+    "queen-w",
+    "king-w",
+    "bishop-w",
+    "knight-w",
+    "rook-w",
+  ],
+];
+
+export { initialBoard };
